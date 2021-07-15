@@ -21,7 +21,7 @@ class FabPage extends StatefulWidget {
 
 class _FabPageState extends State<FabPage> {
   int count = 0;
-  int minus = 100;
+  int minus = 1000;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
