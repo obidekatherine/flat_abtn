@@ -116,26 +116,3 @@ class RecycleCont extends StatelessWidget {
     );
   }
 }
-
-/*class FloatingActionButton extends StatelessWidget {
-  FloatingActionButton({required this.icon, required this.pressed});
-
-  final IconData icon;
-  final Function pressed;
-
-  @override
-  Widget build(BuildContext context) {
-    return RawMaterialButton(
-      child: Icon(icon),
-      onPressed: pressed,
-      //elevation: 10.0,
-      //disabledElevation: 10.0,
-      constraints: BoxConstraints.tightFor(
-        width: 56.0,
-        height: 56.0,
-      ),
-      shape: CircleBorder(),
-      fillColor: Color(0xFF4C4F5E),
-    );
-  }
-}*/
